@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+
+:root {
+  --blue: #0087c5;
+  --black: #212121;
+  --off-white: #f1f1f1;
+  --light-blue: #8ecae6;
+  --dark-blue: #219ebc;
+  --indigo: #023047;
+  --yellow: #ffb703;
+  --orange: #fb8500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  height: 100%;
+  color: var(--off-white);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blue);
+}
+
+.container-content {
+  background-color: var(--black);
+  height: calc(100vh - 264px);
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 2rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--blue);
+  color: var(--off-white);
+  padding-bottom: 2rem;
+  padding-top: 20px;
+}
+
+.heading-main {
+  margin-left: 3rem;
+  font-family: Ubuntu, sans-serif;
+  color: var(--off-white);
+}
+
+nav {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--yellow);
+}
+
+nav a:visited {
+  color: var(--orange);
+}
+
+nav a:active {
+  color: var(--orange);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.highlighted {
+  color: var(--orange);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:active {
+  color: var(--orange);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: var(--yellow);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
