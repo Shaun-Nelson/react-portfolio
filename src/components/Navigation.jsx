@@ -6,16 +6,16 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link to='/'>About</Link>
+          <Link to='/react-portfolio/'>About</Link>
         </li>
         <li>
-          <Link to='/projects'>Projects</Link>
+          <Link to='/react-portfolio/projects'>Projects</Link>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/react-portfolio/contact'>Contact</Link>
         </li>
         <li>
-          <Link to='/resume'>Resume</Link>
+          <Link to='/react-portfolio/resume'>Resume</Link>
         </li>
       </ul>
     </nav>

@@ -1,31 +1,20 @@
 import React from "react";
+import Project from "./Project";
 import "../styles.css";
+import ufoImg from "../assets/ufo.jpeg";
 
 const Projects = () => {
   return (
-    <>
-      <div className='container-content'>
-        <h1>Projects</h1>
-        <div className='container-grid'>
-          <div class='project'>
-            <a href='https://shaun-nelson.github.io/UFO-Tracker/'>
-              <figure>
-                <img
-                  src={require("../assets/ufo.jpeg")}
-                  alt='Flying saucer with light coming out of bottom'
-                ></img>
-              </figure>
-            </a>
-            <div class='project-headings'>
-              <a href='https://shaun-nelson.github.io/UFO-Tracker/'>
-                <h3>FindU (UFO Tracker)</h3>
-                <h6>JS/Bootstrap/APIs</h6>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+    <div className='container-content'>
+      <h2>Projects</h2>
+      <Project
+        link='https://shaun-nelson.github.io/UFO-Tracker/'
+        img={ufoImg}
+        alt='Flying saucer with light coming out of bottom'
+        heading1={"FindU (UFO Tracker)"}
+        heading2={"JS/Bootstrap/APIs"}
+      />
+    </div>
   );
 };
 

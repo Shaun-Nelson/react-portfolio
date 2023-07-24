@@ -12,10 +12,12 @@ function App() {
     <div className='App'>
       <Header />
       <Routes>
-        <Route exact path='/' element={<About />} />
-        <Route exact path='/projects' element={<Projects />} />
-        <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/resume' element={<Resume />} />
+        <Route path='/react-portfolio'>
+          <Route index element={<About />} />
+          <Route exact path='projects' element={<Projects />} />
+          <Route exact path='contact' element={<Contact />} />
+          <Route exact path='resume' element={<Resume />} />
+        </Route>
       </Routes>
       <Footer />
     </div>
