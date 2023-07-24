@@ -1,7 +1,14 @@
 import React from "react";
+import "../styles.css";
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <>
+      <div className='container-content'>
+        <h1>Projects</h1>
+      </div>
+    </>
+  );
 };
 
 export default Projects;
