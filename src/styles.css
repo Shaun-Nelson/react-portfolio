@@ -20,6 +20,8 @@ body {
   color: var(--off-white);
 }
 
+/* UTILITIES */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -32,6 +34,12 @@ body {
   padding-left: 8rem;
   padding-right: 8rem;
   padding-top: 2rem;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .container-footer {
@@ -105,6 +113,28 @@ h2 {
 }
 
 p {
+  margin: 0;
+  padding: 0;
+}
+
+/* PROJECTS */
+
+a img {
+  height: 200px;
+  width: 250px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.project-headings h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.project-headings h6 {
   margin: 0;
   padding: 0;
 }
