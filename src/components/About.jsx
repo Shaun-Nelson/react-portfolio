@@ -1,10 +1,11 @@
 import React from "react";
+import avatar from "../assets/avatar1.jpg";
 
 const About = () => {
   return (
     <div className='container-content'>
       <h2>About Me</h2>
-      <img src='' alt='' />
+      <img src={avatar} alt="Shaun's headshot" height='200px' />
       <article>
         <p>
           Hi, I'm Shaun. I'm an aspiring full stack web developer with a
