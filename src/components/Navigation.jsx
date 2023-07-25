@@ -6,7 +6,7 @@ const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link to='/react-portfolio/'>About</Link>
+          <Link to='/react-portfolio/'>About Me</Link>
         </li>
         <li>
           <Link to='/react-portfolio/projects'>Projects</Link>

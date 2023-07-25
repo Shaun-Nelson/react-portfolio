@@ -50,6 +50,7 @@ form {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   margin-top: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .container-footer {
@@ -64,10 +65,32 @@ form {
   height: auto;
 }
 
+/* HEADERS */
+
 .heading-main {
   margin-left: 3rem;
   font-family: Ubuntu, sans-serif;
   color: var(--off-white);
+}
+
+.project-headings h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.project-headings h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 /* NAVBAR */
@@ -120,16 +143,6 @@ a:hover {
   color: var(--yellow);
 }
 
-h2 {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
 /* PROJECTS */
 
 a img {
@@ -142,12 +155,12 @@ figure {
   padding: 0;
 }
 
-.project-headings h3 {
-  margin: 0;
-  padding: 0;
-}
+/* CONTACT */
 
-.project-headings h6 {
-  margin: 0;
-  padding: 0;
+button {
+  margin-top: 1rem;
+  background-color: var(--off-white);
+  color: var(--black);
+  border: none;
+  padding: 0.5rem;
 }

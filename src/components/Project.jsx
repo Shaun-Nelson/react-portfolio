@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = ({ link, img, alt, heading1, heading2 }) => {
+const Project = ({ link, github, img, alt, heading1, heading2 }) => {
   return (
     <>
       <div className='project'>
@@ -10,7 +10,7 @@ const Project = ({ link, img, alt, heading1, heading2 }) => {
           </figure>
         </a>
         <div className='project-headings'>
-          <a href={link}>
+          <a href={github}>
             <h3>{heading1}</h3>
             <h6>{heading2}</h6>
           </a>
