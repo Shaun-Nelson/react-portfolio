@@ -125,7 +125,7 @@ nav a:active {
   font-weight: bold;
 }
 
-.highlighted {
+a.active {
   color: var(--orange);
   text-decoration: underline;
   font-weight: bold;

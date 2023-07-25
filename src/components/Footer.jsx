@@ -12,7 +12,9 @@ const Footer = () => {
       <a href='https://linkedin.com/in/shaun-nelson-873640285'>
         <FaLinkedin size={iconSize} />
       </a>
-      <FaStackOverflow size={iconSize} />
+      <a href='https://stackoverflow.com/users/22284610/chum'>
+        <FaStackOverflow size={iconSize} />
+      </a>
     </div>
   );
 };
