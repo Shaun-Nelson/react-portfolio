@@ -9,7 +9,9 @@ const Footer = () => {
       <a href='https://github.com/Shaun-Nelson'>
         <FaGithub size={iconSize} />
       </a>
-      <FaLinkedin size={iconSize} />
+      <a href='https://linkedin.com/in/shaun-nelson-873640285'>
+        <FaLinkedin size={iconSize} />
+      </a>
       <FaStackOverflow size={iconSize} />
     </div>
   );

@@ -131,16 +131,18 @@ nav a:active {
   font-weight: bold;
 }
 
-a:active {
+.container-content a {
+  color: var(--yellow);
+}
+
+.container-content a:visited {
   color: var(--orange);
 }
 
-a:visited {
-  color: white;
-}
-
-a:hover {
-  color: var(--yellow);
+.container-content a:active {
+  color: var(--orange);
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* PROJECTS */
@@ -163,4 +165,18 @@ button {
   color: var(--black);
   border: none;
   padding: 0.5rem;
+}
+
+/* FOOTER */
+
+.container-footer a:active {
+  color: var(--orange);
+}
+
+.container-footer a:visited {
+  color: white;
+}
+
+.container-footer a:hover {
+  color: var(--yellow);
 }
