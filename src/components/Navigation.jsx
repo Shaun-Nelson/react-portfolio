@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+// NavLink is used to highlight the current page in the navigation bar.
 
 const Navigation = () => {
   return (

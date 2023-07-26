@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+// Icons from react-icons and Font Awesome.
 
 const iconSize = 56;
 
