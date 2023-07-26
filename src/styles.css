@@ -169,6 +169,10 @@ button {
 
 /* FOOTER */
 
+.container-footer a {
+  color: var(--off-white);
+}
+
 .container-footer a:active {
   color: var(--orange);
 }
