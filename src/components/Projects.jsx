@@ -7,6 +7,7 @@ import djImg from "../assets/dj.jpeg";
 import sunriseImg from "../assets/sunrise.png";
 import natureImg from "../assets/nature.jpeg";
 import jokeImg from "../assets/joke-generator.jpeg";
+import aiMusicImg from "../assets/aimusic.png";
 
 const Projects = () => {
   return (
@@ -14,7 +15,15 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className='container-grid'>
         <Project
-          link='https://bar-fly-1ce0c9bdfc9c.herokuapp.com/'
+          link='https://cadence-music-8f49c24828dd.herokuapp.com/'
+          github='https://github.com/Shaun-Nelson/Cadence'
+          img={aiMusicImg}
+          alt='Robot producing music'
+          heading1={"Cadence"}
+          heading2={"Fullstack App"}
+        />
+        <Project
+          link='https://bar-fly-1ce0c9bdfc9c.herokuapp.com'
           github='https://github.com/Shaun-Nelson/top-50-best-bars-canada'
           img={barflyImg}
           alt='Orange slice being squeezed into a pint of beer.'
@@ -52,14 +61,6 @@ const Projects = () => {
           alt='Waterfall down rocky cliffs'
           heading1={"Nature Viewer"}
           heading2={"React App"}
-        />
-        <Project
-          link='https://shaun-nelson.github.io/Joke-Generator/'
-          github='https://github.com/Shaun-Nelson/Joke-Generator'
-          img={jokeImg}
-          alt='Microphone on stand'
-          heading1={"Joke Generator"}
-          heading2={"HTML/CSS/JS/APIs"}
         />
       </div>
     </div>
